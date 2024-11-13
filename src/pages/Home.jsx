@@ -3,13 +3,13 @@ import { useModal } from "../context/modal-context";
 import { Element } from "react-scroll";
 import Features from "../components/Features";
 import Aboutus from "./Aboutus";
-
+import { useNavigate } from "react-router-dom";
 import Footer from "../components/Footer";
 import { Button } from "../components/Button";
 
 
 const Home = () => {
-
+    const navigate = useNavigate(); 
 
     return (
         <>
@@ -28,9 +28,9 @@ const Home = () => {
                     </h3>
                 </div>
                 <div className="mt-20">
-                        <Button onClick={() => window.open('https://doctchat.onrender.com/', '_blank')}>
-                              Open Website
-                          </Button>
+                <Button onClick={() => navigate('/upload')}>
+      Get Started
+    </Button>
                 </div>
             </div>
 

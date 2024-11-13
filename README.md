@@ -9,5 +9,5 @@ Currently, two official plugins are available:
 
 
 LIVE DEMO - https://document-summerizer-using-rag.vercel.app/
-
+2nd link - https://document-summerizer-using-rag-nu.vercel.app/
 

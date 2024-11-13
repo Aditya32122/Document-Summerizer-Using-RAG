@@ -25,13 +25,13 @@ const featuresData = [
   },
   {
     icon: logo4,
-    title: 'Voice to Text Conversion',
-    description: 'Transform your spoken words into written text easily and effortlessly.',
+    title: 'Chat with your Document',
+    description: 'Ask questions and get accurate information included in the document',
   },
   {
     icon: logo5,
-    title: 'Style and Tone Adaptation',
-    description: 'Adjust to a professional or positive tone with ease.',
+    title: 'Upload multiple files',
+    description: 'upload multiple files and retrive accurate information from them.',
   },
   {
     icon: logo6,

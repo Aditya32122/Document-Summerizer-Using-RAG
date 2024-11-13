@@ -28,7 +28,9 @@ const Home = () => {
                     </h3>
                 </div>
                 <div className="mt-20">
-                    <Button onClick={()=>window.open()}/>            
+                        <Button onClick={() => window.open('https://doctchat.onrender.com/', '_blank')}>
+                              Open Website
+                          </Button>
                 </div>
             </div>
 

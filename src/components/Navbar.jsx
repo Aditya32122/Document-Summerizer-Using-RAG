@@ -37,7 +37,7 @@ const Navbar = () => {
       
       <div className="font-montserrat mb-0">
         <Link to="/" className="text-3xl md:text-xl lg:text-5xl font-extrabold text-white">
-          FraternityAI
+         DoctChat
         </Link>
       </div>
 
